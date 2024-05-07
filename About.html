@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Fake Amazon 
+        </title>
+    </head>    
+    <style>
+        footer table tr,td{
+    background-color: rgb(0, 0, 0);
+}
+h4,h2{
+    color: black;
+}
+    </style>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="change.css">
+    <body>
+        <!-- <div class="header">
+            <div id="header-left-container">
+                <img src="data:image/png;base64,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">
+            </div>
+            <div id="header-right-container">
+                <table>
+                    <tr align="left">
+                        <td>Trade name:- Amazon</td>
+                    </tr>
+                    <tr align="left">
+                        <td>Founded:- July 5, 1994; 27 years ago,Bellevue, Washington, U.S.</td>
+                    </tr>
+                    <tr align="left">
+                        <td>Founder:- Jeff Bezos</td>
+                    </tr>
+                    <tr align="left">
+                        <td>Headquarters:- Seattle, Washington, U.S</td>
+                    </tr>
+                </table>  https://www.aboutamazon.eu/press-release/introducing-prime-reading-the-newest-benefit-for-prime-members-in-germany-and-austria
+            </div>
+        </div> -->
+
+
+
+        <main>
+            <div class="header-img"></div>
+        </main>
+        <nav class="navigation">
+            <ul>
+                <li><a href="About.html" class="navigation" style="background-color: #000000; color:rgb(255, 81, 0);">About</a></li>
+                <li><a href="Amazon Prime Video.html" class="navigation">Amazon Prime Video</a></li>
+                <li><a href="Amazon Web Services.html" class="navigation">Amazon Web Services</a></li>
+                <li><a href="Amazon Fresh.html" class="navigation">Amazon Fresh</a></li>
+                <li><a href="https://www.amazon.in/b/ref=in-pr-pc-signup-delivery-lnk?node=12627912031" target="_framename" class="prime delivery">Prime Delivery</a></li>
+                <li><a href="form.html" class="navigation">Contact Us</a></li>
+            </ul>
+        </nav>
+       
+        <pre><h4>What is Amazon?</h4>
+ <b style="font-size: 50px;">A</b>mazon is a cloud computing giant and the largest American e-commerce company. It was founded in 1994 by Jeff Bezos.
+
+Originally known for selling books through its website (and later digital versions via its Kindle e-reader), Amazon has built up a customer service, inventory, and shipping empire that allows the
+
+site to offer everything from clothes to lawn furniture to janitorial supplies. It also sells digital content like movies, music, and apps. Its Amazon Web Services arm is a multibillion-dollar
+
+provider of cloud-based services for millions of business customers around the world, including government agencies and universities. And it’s a major player in consumer electronics--not only by
+
+offering devices such as Fire tablets and TV boxes, but also via its Alexa AI assistant service, which made news at the CES 2017 gadget show by being built into everything from LG refrigerators 
+
+to Ford cars.
+
+Amazon is even a Hollywood player, taking home two awards at the 2017 Golden Globes. Yet the basics of Bezos's business philosophy--focusing on long-term customer loyalty over short-term profits
+
+and never-ending expansion into new businesses--have been surprisingly consistent over the years. And Amazon's obsession with efficiency explains why it's now delivering products in just two
+
+hours via its Prime Now service, and why it hopes to be among the first e-commerce companies to deploy its own fleet of drones with Amazon Prime Air, a future fleet of autonomous aerial
+
+vehicles that will deliver packages under five pounds.
+
+<div>
+    <iframe src="https://www.britannica.com/topic/Amazoncom" title="britannica" width="1400" height="800">
+    </iframe> 
+</div>
+
+In an interesting twist, Amazon has made significant investments in brick and mortar, opening its first bookstore in Seattle in late 2015 and since then expanding to 13 locations. In 2017, the
+
+company completed its acquisition of Whole Foods and in early 2018 opened an Amazon Go grocery store to the public at the company's headquarters in Seattle. 
+
+Amazon is a massive online retailer that has a market capitalization as of June 2018 that is in excess of $268 billion U.S. As well as being an online retailer, Amazon allows for individuals 
+
+and business to sell and display products for sale on line. It is the largest internet retailer in the world by revenue, with 2017 revenues of more than $177 billion.
+
+Amazon is one of the most popular online marketplaces used by both individual as well as businesses, and the site is available in many different countries and languages. 
+
+Amazon Kindle is one of its most popular products as well as the Amazon app store. Lastly, Amazon offers software and infrastructure solutions for business and individuals.
+
+Amazon was begun in 1994 in Seattle Washington by Jeff Bezos, and was initially little more than an online bookstore. From those humble beginnings, Amazon has become the largest online
+
+ecommerce retailer,and one of the most powerful brands in the world. Not only has it expanded its offerings of goods and services, but it also participates in the streaming video
+
+marketplace, the cloud computing marketplace,and most recently Amazon has entered into banking.
+
+Not only is Amazon the most valuable internet retailer in the world, it is the most valuable retailer period, having surpassed Wal-Mart back in 2015. It is also the fourth most valuable 
+
+company in the world,topped only by Alphabet, Apple and Microsoft. It has often taken a low profit margin approach to new product offerings to capture market share, and this strategy 
+
+has worked amazingly for Amazon as they have come to dominate many of the markets in which they participate.
+
+Amazon has storefront website for over a dozen different countries, and ships to nearly every country in the world. It also hosts the retail websites of brands such as Sears Canada,
+
+Marks & Spencer,Lacoste and others. It also owns over 40 subsidiary brands such as Zappos, Diapers.com, Goodreads, IMDb, and many more.
+
+</pre>
+
+<footer>
+    <table align="center" cellpadding="5">
+        <tr>
+            <td>
+                <table cellpadding = "15" align="center">
+                    <tr>
+                        <td colspan="2" style="font-family: cursive;">Links to some of amazon's services</td>
+                    </tr>
+                    <tr align="left">
+                        <td><a target="_framename" href="https://www.primevideo.com/" style="color: aqua;background-color: black;text-decoration: none;">Prime Video</a></td>
+                        <td><a target="_framename" href="https://music.amazon.in/" style="color: aqua;background-color: black;text-decoration: none;" >Prime Music</a</td>
+                    </tr>
+                    <tr align="left">
+                        <td><a target="_framename" href="https://gaming.amazon.com/" style="color: aqua;background-color: black;text-decoration: none;">Gaming with Prime</a></td>
+                        <td><a target="_framename" href="https://www.amazon.in/kindle-dbs/fd/kcp?pf_rd_m=A1VBAL9TL5WCBF&storeType=ebooks&pageType=FEATUREDOC&pf_rd_p=&pf_rd_r=897VDKFN4DE7SCJJQA2K&pf_rd_s=center-5&pf_rd_t=&ref_=dbs_o_r_img_s5&pf_rd_i=nonprime-pr" style="color: aqua;background-color: black;text-decoration: none;" >Prime Reading</a></td>
+                    </tr>
+                </table>
+            </td>
+            <td><td><td><td><td><td><td><td><td><td><td><td><td><td></td></td></td></td></td></td></td></td></td></td></td></td></td></td>
+            <td>
+                <table cellpadding="10" align="center">
+                    <tr>
+                        <td colspan="1" style="font-family: cursive;">Connect with Us</td>
+                    </tr>
+                    <tr>
+                        <td><a target="_framename" href="https://www.facebook.com/AmazonIN" style="color: aqua;background-color: black;text-decoration: none;" target="_self">Facebook</a></td>
+                    </tr>
+                    <tr>
+                        <td><a  target="_framename" href="https://twitter.com/AmazonIN" style="color: aqua;background-color: black;text-decoration: none;">Twitter</a></td>
+                    </tr>
+                    <tr>
+                        <td><a  target="_framename" href="https://www.instagram.com/amazondotin/" style="color: aqua;background-color: black;text-decoration: none;">Instagram</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+</footer>
+
+
+    </body>
+</html>
+
